@@ -1,0 +1,176 @@
+
+
+.flag{
+    position: relative;
+    height: 600px;
+    width: 900px;
+ 
+    border: 2px solid black;
+    
+}
+
+.orange{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: orangered;
+}
+
+.white{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top:200px;
+    background-color: white;
+}
+
+.ashoka-chakra {
+    position: absolute;
+    margin-top: 1px;
+    height: 98%;
+    width: 22%;
+ 
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 340px;
+    
+}
+
+img {
+    position: absolute;
+    height: 216px;
+    width: 290px;
+    right: -51px;
+    top: -6px;
+}
+ 
+/* 
+.spoke1{
+    position: absolute;
+    height: 1%;
+    width: 100%;
+    background-color:  black;
+    margin-top: 48%;
+}
+
+.spoke2{
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color:  black;
+    margin-left: 48%;
+}
+
+.spoke3{
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color:  black;
+    margin-left: 48.5%;
+    transform: rotate(45deg);
+    bottom: 3.5px;
+    
+}
+
+.spoke4{
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color:  black;
+    margin-left: 48.5%;
+    transform: rotate(135deg);
+    bottom: 1.5px;
+    
+}
+
+
+.spoke5{
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color:  black;
+    margin-left: 48.5%;
+    transform: rotate(30deg);
+    bottom: 1.5px;
+    
+}
+
+.spoke6 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(60deg);
+    bottom: 1.5px;
+}
+
+.spoke7 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(75deg);
+    bottom: 1.5px;
+}
+
+.spoke8 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(105deg);
+    bottom: 1.5px;
+}
+
+.spoke9 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(120deg);
+    bottom: 1.5px;
+}
+
+.spoke10 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(150deg);
+    bottom: 1.5px;
+}
+
+.spoke11 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(210deg);
+    bottom: 1.5px;
+}
+
+.spoke12 {
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: black;
+    margin-left: 48.5%;
+    transform: rotate(240deg);
+    bottom: 1.5px;
+} */
+
+ 
+
+.green{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top:400px;
+    background-color: green;
+}
