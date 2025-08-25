@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Card</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            height: 300px;
+            width: 600px;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            border-radius: 15px;
+          
+        }
+
+        .horizontal-line{
+            border: 1px solid #dfdede;
+            width: 100%;
+            height: 0px;
+            
+        }
+        .vertical-line{
+            position: relative;
+            border: 1px solid #dfdede;
+            width: 0;
+            height: 11.8em;
+            margin-left: 20px;
+
+        }
+
+        span{
+            font-size: 25px;
+            font-weight: bold;
+            
+        }
+        .zero{
+            color: rgb(3, 110, 49);
+        }
+        .row{
+            position: relative;
+            width: 600px;
+        }
+
+        .row h3{
+            padding-top: 10px;
+            margin-left: 20px;
+        }
+
+        .row>p{
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        .column{
+            position: relative;
+            display: flex;
+            width: 100%;
+        }
+
+        .first-column{
+           
+            width: 290px;
+            margin-right: -20px;
+        }
+
+        .second-column{
+            width: 300px;
+        }
+
+        .second-column>h4{
+            margin-left: 30px;
+        }
+        .first-column >h4{
+            margin-left: 20px;
+        }
+
+        .first-column-para{
+            margin-left: 20px;
+        }
+
+        .second-column-para{
+            margin-left: 30px;
+        }
+
+        p{
+            color: rgb(85, 84, 84);
+        }
+
+        
+
+        .get-discount{
+            margin-top: 25px;
+           
+            border-radius: 30px;
+            padding: 10px;
+            width: 250px;
+
+        }
+        .get-discount-1{
+            margin-left:15px;
+        }
+
+        .get-discount-2{
+            margin-left:19px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>30 GB</h3>
+            <p>total storage for Google Photos, Drive and Gmail</p>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="column">
+            <div class="first-column">
+                <h4>Pay monthly</h4>
+                <p class="first-column-para" ><span class="zero" >$0</span>/mo</p>
+                <p class="first-column-para" >for 1 month with offer then $59/mo</p>
+                <button class="get-discount get-discount-1" >Get discount</button>
+            </div>
+            <div class="vertical-line" ></div>
+            <div class="second-column">
+                <h4>Pay anually, save 50%</h4>
+                <p  class="second-column-para" ><span>$349</span>/yr</p>
+                <p  class="second-column-para" >for 1 year with offer then $359/mo</p>
+                <button class="get-discount get-discount-2">Get discount</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
